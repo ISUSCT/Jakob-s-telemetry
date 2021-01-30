@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme) => ({
   chart: {
     height: "1000px",
     width: "1000px",
-  }
+    padding: theme.spacing(3),
+  },
 }));
 
 const Batteries = ({ className, ...rest}) => {
