@@ -5,12 +5,14 @@ import { Typography, Box, Paper, useTheme, colors } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   chart: {
-    height: "1000px",
+    height: "450px",
     width: "1000px",
     padding: theme.spacing(3),
+    margin: theme.spacing(1),
+    alignContent: "left",
     "&:hover": {
       backgroundColor: "#F5F5F5",
-  },
+    },
   },
 }));
 

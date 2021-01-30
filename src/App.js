@@ -10,13 +10,13 @@ const useStyles = makeStyles((theme) => ({
   },
   map: {
     width: "900px",
-    height: "550px",
+    height: "600px",
     frameborder: "0",
     style: "border:0;",
     allowfullscreen: "0",
     ariahidden: "false",
     tabindex: "0",
-    margin: theme.spacing(3),
+    margin: theme.spacing(2),
   },
   container: {
     display: "flex",

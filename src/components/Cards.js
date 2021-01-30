@@ -42,9 +42,15 @@ export default function Cards() {
             <SummaryCard title={"Speed"} value={"35 mph"} />
             <SummaryCard title={"RPM"} value={"1000"} />
             <SummaryCard title={"Odometer"} value={"1000 miles"} />
-            <SummaryCard title={"Voltage"} value={"13 Volts"} />
             <SummaryCard title={"Acceleration"} value={"75%"} />
             <SummaryCard title={"Amperage Consumption"} value={"35 Amps"} />
+            <SummaryCard title={"Voltage"} value={"13 Volts"} />
+            <SummaryCard title={"Panel #1"} value={"12 Volts"} />
+            <SummaryCard title={"Panel #2"} value={"12 Volts"} />
+            <SummaryCard title={"Panel #3"} value={"12 Volts"} />
+            <SummaryCard title={"Panel #4"} value={"12 Volts"} />
+            <SummaryCard title={"Panel #5"} value={"12 Volts"} />
+            <SummaryCard title={"Panel #6"} value={"12 Volts"} />
         </div>
     );
 }
