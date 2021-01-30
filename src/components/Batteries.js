@@ -8,6 +8,9 @@ const useStyles = makeStyles((theme) => ({
     height: "1000px",
     width: "1000px",
     padding: theme.spacing(3),
+    "&:hover": {
+      backgroundColor: "#F5F5F5",
+  },
   },
 }));
 
