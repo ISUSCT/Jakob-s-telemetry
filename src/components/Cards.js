@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       flexGrow: 1,
       padding: theme.spacing(3),
+      "&:hover": {
+          backgroundColor: "#F5F5F5",
+      },
     },
     text: {
         color: "red",
@@ -41,6 +44,7 @@ export default function Cards() {
             <SummaryCard title={"Odometer"} value={"1000 miles"} />
             <SummaryCard title={"Voltage"} value={"13 Volts"} />
             <SummaryCard title={"Acceleration"} value={"75%"} />
+            <SummaryCard title={"Amperage Consumption"} value={"35 Amps"} />
         </div>
     );
 }

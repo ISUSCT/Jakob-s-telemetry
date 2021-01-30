@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
   map: {
     width: "900px",
-    height: "530px",
+    height: "550px",
     frameborder: "0",
     style: "border:0;",
     allowfullscreen: "0",
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   container: {
     display: "flex",
+    alignContent: "center",
   },
 }));
 
