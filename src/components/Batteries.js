@@ -1,8 +1,17 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import { Bar } from 'react-chartjs-2';
 import { Typography, Box, Paper, useTheme, colors } from '@material-ui/core';
 
+const useStyles = makeStyles((theme) => ({
+  chart: {
+    height: "1000px",
+    width: "1000px",
+  }
+}));
+
 const Batteries = ({ className, ...rest}) => {
+    const classes = useStyles();
     const theme = useTheme();
 
     const graph = {
@@ -74,8 +83,8 @@ const Batteries = ({ className, ...rest}) => {
       };
 
       return (
-          <Paper>
-              <Box height={400} position="relative">
+          <Paper className={classes.chart}>
+              <Box className={classes.chart} position="relative">
                   <Typography variant="h5" gutterBottom>
                       Average Charge: 86%
                   </Typography>

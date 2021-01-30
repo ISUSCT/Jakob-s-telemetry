@@ -11,17 +11,20 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
       padding: theme.spacing(3),
     },
+    text: {
+        color: "red",
+    },
   }));
 
 export function SummaryCard({ title, value, component }) {
     const classes = useStyles();
     return (
         <Paper elevation={2} className={classes.summaryCard}>
-            <Typography color={"textSecondary"} variant="h5" gutterBottom>
+            <Typography className={classes.text} variant="h5" gutterBottom>
                 {title}
             </Typography>
             {component || (
-                <Typography color={"primary"} variant="h3">
+                <Typography variant="h3">
                     {value}
                 </Typography>
             )}
